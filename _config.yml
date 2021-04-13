@@ -19,10 +19,10 @@ locale                   : "en-US"
 title                    : "Seismology @ UW"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Marine A. Denolle"
-description              : "Data Driven Seismology."
-url                      : mdenolle.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : mdenolle.github.io # the subpath of your site, e.g. "/blog"
+name                     : &name "Marine A. Denolle"
+description              : &description "Data Driven Seismologist"
+url                      : https://mdenolle.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+#baseurl                  : mdenolle.github.io # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -95,9 +95,9 @@ analytics:
 # Site Author
 author:
   name             : "Marine Denolle"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  avatar           :  "/assets/images/MD_portrait.jpg"
+  bio              : "I am an observational seismologist"
+  location         : "Seattle, WA"
   email            :
   links:
     - label: "Email"
