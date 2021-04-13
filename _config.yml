@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Marine Denolle"
-  avatar           :  "/assets/images/MD_portrait.jpg"
+  avatar           :  "/assets/images/MD_portrait.png"
   bio              : "I am an observational seismologist"
   location         : "Seattle, WA"
   email            :
